@@ -15,14 +15,14 @@
 
 .container-bg-1 {
   overflow: hidden;
-  background-image: url("/images/bg-pattern-top.svg");
+  background-image: url("./images/bg-pattern-top.svg");
   background-repeat: no-repeat;
   background-position: -120% -40vh;
   background-color: hsl(185, 75%, 39%);
 }
 
 .container-bg-2 {
-  background-image: url("/images/bg-pattern-bottom.svg");
+  background-image: url("./images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   background-position: 40vw 55vh;
 }
@@ -53,7 +53,7 @@
   border-radius: 10px 10px 0 0;
   background-color: hsl(185, 75%, 39%);
   height: 35%;
-  background-image: url("/images/bg-pattern-card.svg");
+  background-image: url("./images/bg-pattern-card.svg");
 }
 
 .txt-lg {

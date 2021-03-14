@@ -1,0 +1,107 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container-bg-1 {
+  overflow: hidden;
+  background-image: url("/images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  background-position: -120% -40vh;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.container-bg-2 {
+  background-image: url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: 40vw 55vh;
+}
+
+.card-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #fff;
+  height: 330px;
+  width: 300px;
+  -webkit-box-shadow: 10px 10px 100px hsl(227, 10%, 46%);
+  box-shadow: 10px 10px 100px hsl(227, 10%, 46%);
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(185, 75%, 39%);
+  height: 35%;
+  background-image: url("/images/bg-pattern-card.svg");
+}
+
+.txt-lg {
+  color: hsl(229, 23%, 23%);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.age {
+  color: hsl(229, 23%, 23%);
+  font-weight: 400;
+}
+
+.txt-sml {
+  color: hsl(229, 23%, 23%);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+.image-bg {
+  text-align: center;
+}
+
+.profile-image {
+  position: relative;
+  border: 5px solid white;
+  border-radius: 100%;
+  top: 70px;
+}
+
+.card-body {
+  text-align: center;
+  padding-top: 25%;
+  padding-bottom: 5%;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  text-align: center;
+  border-top: 0.5px solid hsla(0, 0%, 59%, 0.281);
+  padding: 8%;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  padding: 10px;
+}
